@@ -9,19 +9,19 @@ namespace Business.Constants
 {
     public static class Messages
     {
-        public static string ProductAdded = "Product added";
-        public static string ProductNameInvalid = "Product name is invalid";
+        public static string ProductAdded = "Ürün eklendi";
+        public static string ProductNameInvalid = "Ürün ismi geçersiz";
         public static string MaintenanceTime = "Sistem bakımda";
-        public static string ProductsListed = "Products listed";
-        public static string ProductCountOfCategoryError = "There can be a maximum of 10 products in a category.";
-        public static string ProductNameAlreadyExists = "Product name already exists";
-        public static string CategoryLimitExceded = "Category limit exceded";
-        public static string AuthorizationDenied= "You are not authorized";
-        public static string UserRegistered = "User registered";
-        public static string UserNotFound = "User not found";
-        public static string PasswordError = "Password is wrong";
-        public static string SuccessfulLogin = "Login successful";
-        public static string UserAlreadyExists = "Username is already taken";
-        public static string AccessTokenCreated = "Token created";
+        public static string ProductsListed = "Ürünler listelendi";
+        public static string ProductCountOfCategoryError = "Bir kategoride en fazla 10 ürün olabilir";
+        public static string ProductNameAlreadyExists = "Ürün adı çoktan alınmış";
+        public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor";
+        public static string AuthorizationDenied= "Yetkiniz yok";
+        public static string UserRegistered = "Kullanıcı kayıtlı";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre yanlış";
+        public static string SuccessfulLogin = "Giriş başarılı";
+        public static string UserAlreadyExists = "Kullanıcı adı çoktan alınmış";
+        public static string AccessTokenCreated = "Giriş yapıldı";
     }
 }
